@@ -1,41 +1,52 @@
-<head>
-<style
->@import url('https://fonts.googleapis.com/css?family=Roboto');
-.card {
-  position: ;
-  width: 40%;
-  font-family: Roboto;
-  left: 315px;
-  top: 15px;
-  text-align: center;
-  all: relative ;
+<html>
+  <style>* {
+  width: 400px;
+  text-align: ;
+  background-color: ;
 }
-.card-title {
-  font-size: 25px;
-  text-align: center;
-  background-color: white;
+h1 {
+  text-align: left;
+  padding-left: 12px;
 }
-.btn {
-  background-color: lightgrey;
+button {
+  width: inherit;
+  text-align: center;
+}
+ul{
+  width: inherit;
+  text-align: ;
+  padding-left: 125px;
 }
 #appt {
-  color: black;
-  background-color: #4286f4;
+  position: inherit;
+  width: inherit;
 }
-</style>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-</head>
-<div class="card">
-  <img class="card-img-top" src="http://az413908.vo.msecnd.net/99/photos/201801/2821/3109/3a65405e-400d-419d-a216-dea3d05d73da.jpg?w=400" alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">2018 Ford Mustang</h5>
-    <p>Quick example text to build on the card title. The quick brown fox jumped over the lazy dog.</p>
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item">4 Cylinder Engine</li>
-      <li class="list-group-item">RWD</li>
-    </ul>
-    <ul class="list-group list-group-flush" id="appt">
-      <li class="list-group-item btn" id="appt">Book An Appointment</li>
-    </ul>
 
-  </div>
+
+</style>  
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <style></style>
+<div id="product" itemprop="itemOffered" itemscope itemtype="http://schema.org/Car">
+<div class="container mt-3 bg-light">
+  
+ <img itemprop="image" src="http://az413908.vo.msecnd.net/99/photos/201801/2821/3109/3a65405e-400d-419d-a216-dea3d05d73da.jpg?w=400" alt="2018 Ford Mustang">
+<!-- Brand & Model -->  
+  <h1 itemprop="name">2018 Ford Mustang</h1>
+  <button type="button" class="btn btn-basic" data-toggle="collapse" data-target="#demo">Highlights</button>
+  <div id="demo" class="collapse">
+    <ul id="#highlights">
+      <li>4 Cylinder Engine</li>
+      <li>RWD</li>
+      <li>Backup Camera</li>
+      <li>Power Doors</li>
+    </ul>
+    
+  </div><div class="btn btn-primary" id="appt">Book An Appointment</div>
+</div>
